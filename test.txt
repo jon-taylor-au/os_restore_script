@@ -1,2 +1,7 @@
-
-cscxz
+git clone https://github.com/<user>/<repo>.git
+cd <repo>
+echo '#!/bin/bash' > test.sh
+echo 'echo Hello World' >> test.sh
+git add test.sh
+git commit -m "Add test script"
+git push origin main
